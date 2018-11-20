@@ -1,0 +1,43 @@
+body{
+    width: 960px;
+}
+
+
+@media(max-width: 768px){
+    div{
+        text-align: center;
+        width: 480px;
+        background-color: gray;
+        margin: 0px auto;
+        border: solid black 1px;
+    }
+    #a{
+        height: 75px;
+        margin-left: 240px;
+    }
+    #b{
+        height: 150px;
+        margin-left: 240px;
+    }
+    #c, #d{
+        height: 125px;
+        margin-left: 240px;
+    }
+    #e, #g{
+        width: 239px;
+        height: 250px;
+        float: left;
+        margin-left: 240px;
+    }
+    #f, #h{
+        width: 239px;
+        height: 250px;
+        float: left;
+    }
+    #i{
+        width: 480px;
+        float: left;
+        height: 80px;
+        margin-left: 240px;
+    }
+}
