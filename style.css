@@ -5,25 +5,30 @@ body{
 
 @media(min-width: 769px){
  div{
+   text-align: center;
     background-color: gray;
     margin: 0px auto;
     border: solid black 1px;
  }
 #a{
+    background-color:red;
     height: 100px;
     width: 960px;
 }
 #b{
+    background-color: blue;
     height: 600px;
     width: 200px;
     float: left;
 }
 #c{
+    background-color: green;
     width: 380px;
     height: 200px;
     float: left;
 }
 #d{
+    background-color: wheat;
     width: 380px;
     height: 200px;
     margin-left: 580px;
@@ -34,12 +39,20 @@ height: 250px;
 margin: 0px;
 float: left;
 }
+#e{
+    background-color: black;
+}
+#f{
+background-color: aqua;
+}
 #i{
+    background-color: yellow;
     width: 756px;
     height: 146px;
     float: right;
 }
 #h{
+    background-color: purple;
     float: right;
     width: 186px;
 }
@@ -56,16 +69,33 @@ float: left;
         border: solid black 1px;
     }
     #a{
+        background-color: blue;
         height: 75px;
         margin-left: 240px;
     }
     #b{
+        background-color:red;
         height: 150px;
         margin-left: 240px;
+    }
+    #c{
+        background-color: purple;
+    }
+    #d{
+        background-color: yellow;
     }
     #c, #d{
         height: 125px;
         margin-left: 240px;
+    }
+    #e{
+        background-color: aqua; 
+    }
+    #f{
+        background-color: black; 
+    }
+    #g{
+        background-color: wheat;  
     }
     #e, #g{
         width: 239px;
@@ -79,6 +109,7 @@ float: left;
         float: left;
     }
     #i{
+        background-color: green;
         width: 480px;
         float: left;
         height: 80px;
