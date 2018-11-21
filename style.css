@@ -11,41 +11,48 @@ body{
     border: solid black 1px;
  }
 #a{
+    line-height: 600%;
     background-color:red;
     height: 100px;
     width: 960px;
 }
 #b{
+    line-height: 650px;
     background-color: blue;
     height: 600px;
     width: 200px;
     float: left;
 }
 #c{
+    line-height: 199px;
     background-color: green;
     width: 380px;
     height: 200px;
     float: left;
 }
 #d{
+    line-height: 199px;
     background-color: wheat;
     width: 380px;
     height: 200px;
     margin-left: 580px;
 }
 #e, #f, #g, #h{
-width: 188px;
+    line-height: 250px;
+    width: 188px;
 height: 250px;
 margin: 0px;
 float: left;
 }
 #e{
+    color: azure;
     background-color: black;
 }
 #f{
 background-color: aqua;
 }
 #i{
+    line-height: 150px;
     background-color: yellow;
     width: 756px;
     height: 146px;
@@ -69,11 +76,13 @@ background-color: aqua;
         border: solid black 1px;
     }
     #a{
+        line-height: 75px;
         background-color: blue;
         height: 75px;
         margin-left: 240px;
     }
     #b{
+        line-height: 150px;
         background-color:red;
         height: 150px;
         margin-left: 240px;
@@ -85,30 +94,37 @@ background-color: aqua;
         background-color: yellow;
     }
     #c, #d{
+        line-height: 125px;
         height: 125px;
         margin-left: 240px;
     }
     #e{
+        line-height: 150px;
         background-color: aqua; 
     }
     #f{
+        color: azure;
+        line-height: 150px;
         background-color: black; 
     }
     #g{
         background-color: wheat;  
     }
     #e, #g{
+        line-height: 240px;
         width: 239px;
         height: 250px;
         float: left;
         margin-left: 240px;
     }
     #f, #h{
+        line-height: 240px;
         width: 239px;
         height: 250px;
         float: left;
     }
     #i{
+        line-height: 100px;
         background-color: green;
         width: 480px;
         float: left;
